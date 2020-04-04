@@ -94,8 +94,10 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 700px;
-  background-size: auto 100%;
+  /* background-size: auto 100%; */
+  background-size: contain;
   position: relative;
+  /* background: url(../img/header.jpg) no-repeat center center; */
   background: url(../img/header.jpg) center center;
 }
 
@@ -345,10 +347,15 @@ li {
 
 #skill .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
 }
 
 #skill .skill-desc-title {
   margin-bottom: 3px;
+}
+
+#skill .skill-desc-title i{
+  margin-right: 12px;
 }
 
 #skill .rate {
@@ -559,7 +566,7 @@ li {
     font-size: 32px;
   }
 
-  #feature .two-column-wrapper {
+  /* #feature .two-column-wrapper {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -572,7 +579,7 @@ li {
 
   #feature .two-column-desc {
     width: 100%;
-  }
+  } */
 
   #works .card {
     width: 48%;
@@ -601,13 +608,44 @@ li {
     width: 100%;
   }
 
-  #skill .card-wrapper {
+  /* #skill .card-wrapper {
     width: 100%;
+  } */
+
+
+  #skill .card-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
   }
 
-  #skill .card {
+  /* #skill .card {
     flex-basis: 100%;
+  } */
+
+  #skill .card {
+    flex-basis: 46%;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
+
 
   #skill .skill-icon {
     flex-basis: 45px;
