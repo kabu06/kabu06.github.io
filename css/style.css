@@ -96,7 +96,8 @@ li {
   height: 700px;
   position: relative;
   background: url(../img/header.jpg) center center;
-  background-size: auto 100%;
+  /* background-size: auto 100%; */
+  background-size: cover;
 }
 
 #header .logo {
@@ -352,9 +353,9 @@ li {
   margin-bottom: 3px;
 }
 
-#skill .skill-desc-title i{
+/* #skill .skill-desc-title i{
   margin-right: 12px;
-}
+} */
 
 #skill .rate {
   font-size: 16px;
