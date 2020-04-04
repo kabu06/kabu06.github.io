@@ -94,11 +94,9 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 700px;
-  /* background-size: auto 100%; */
-  background-size: 100% auto;
-  /* background-size: contain; */
   position: relative;
   background: url(../img/header.jpg) center center;
+  background-size: auto 100%;
 }
 
 #header .logo {
