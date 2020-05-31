@@ -336,13 +336,13 @@ li {
   justify-content: space-between;
 }
 
-#skill .skill-icon {
+/* #skill .skill-icon {
   flex-basis: 75px;
 }
 
 #skill .skill-icon img {
   width: 75px;
-}
+} */
 
 #skill .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
